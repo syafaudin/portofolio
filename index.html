@@ -313,12 +313,17 @@
               <textarea type="text" id="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
             </div>
             <div class="w-full">
-              <button id="kirim" name="submit" class="text-base font-semibold bg-primary rounded-full py-3 px-8 w-full hover:opacity-80 hover:shadow-lg transition-500">Kirim</button>
+              <button id="kirim" name="submit" onclick="notif()" class="text-base font-semibold bg-primary rounded-full py-3 px-8 w-full hover:opacity-80 hover:shadow-lg transition-500">Kirim</button>
             </div>
           </div>
         </form>
       </div>
     </section>
+    <script>
+      function notif() {
+        alert("Dalam proses pengembangan :)");
+      }
+    </script>
     <!-- Hubungi END -->
     <!-- footer start -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
